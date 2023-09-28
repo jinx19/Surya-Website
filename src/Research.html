@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Publication</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+
+    <style>
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-left: 0;
+            margin-right: 0;
+            padding-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar1">
+        <div class="surya">
+            <img class="one" src="assets/project/navbar.jpg" alt="Image" />
+        </div>
+
+        <a href="index.html" class="home-button">
+            <img src="assets/favicon/favicon-32x32.png" alt="Home" class="home-icon" />
+        </a>
+    </nav>
+
+    <div class="con-project">
+        <h2 style="font-size: 40px;">Research Publications</h2>
+        <p>Published and In-Progress papers.</p>
+    </div>
+
+    <section id="projects" class="project-container container">
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Classification of Fine-ADL using sEMG signals under different measurement conditions</h5>
+                    <p class="awards-paragraph"><em><b>Surya Naidu</b>, Anish Turlapaty, Vidya Sagar</em></p>
+                </div>
+                <p class="awards-paragraph">
+                <ul>
+                    <li>Collected a state-of-the-art dataset, focussing on activities of daily living (ADL) primarily
+                        centered around finger movements, under different measurement conditions. </li>
+                    <li>Employed extensive evaluations to gauge the efficacy of ML models across a wide spectrum of
+                        experimental scenarios and setups.</li>
+                    <li>FCNN and EMGHandNet as the top-performing models with remarkable test accuracies of <b>88%</b> and
+                    <b>78.63%</b>, respectively.</li>
+                    <li>EMGHandNet exhibited a notable performance improvement over FCNN, achieving a remarkable <b>27.47%</b>
+                        higher accuracy for varying body postures.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Nanomagnetic Logic Simulation of Digital Design</h5>
+                    <p class="awards-paragraph"><em><b>Surya Naidu</b>, Vidya Sagar Venna, Gopal Anubothula, Vobulapuram
+                            Ramesh Kumar</em></p>
+                </div>
+                <ul>
+                    <li>Conducted thorough analysis of established Nanomagnetic Logic (NML) simulators, like ToPoliNano, MagCad, and
+                        NMLSim2.0.</li>
+                    <li>Designed and simulated simple circuits (Majority Gates, Full Adders) using these simulators for comprehensive analysis.</li>
+                    <li>Recognized NMLSim2.0 as the prominent simulator, owing to its circuit simulation capabilities, and inclusion of cuts.</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Impact of Measurement Conditions on Classification of ADL using Surface EMG signals</h5>
+                </div>
+                <p class="awards-paragraph"><em>Vidya Sagar, Anish Turlapaty, <b>Surya Naidu</b></em></p>
+                <ul>
+                    <li>The new dataset, EMAHA-DB4 includes sEMG signals from <b>10 subjects</b> performing <b>8 unique ADL</b> in <b>3 body postures</b> and <b>4 arm positions</b>
+                         for varied measurement conditions.</li>
+                    <li>The framework uses features from <b>time domain, frequency domain, wavelet domain, and Eigenvalues</b> for ML classification.</li>
+                    <li><b>CNN Bi-LSTM</b> achieved <b>85.37%</b> accuracy for activities versus arm positions and <b>82.1%</b> versus body postures in aggregate scenarios.</li>
+                    <li><b>DNN</b> consistently achieved higher accuracy with averages of <b>90.9%</b> in aggregate conditions and <b>90.3%</b> in subject-specific scenarios.</li>
+                  </ul>
+                  
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Fatigue Classification and Onset estimation using Surface EMG Signals during Strength Training
+                    </h5>
+
+                </div>
+                <p class="awards-paragraph"><em>Eswar Adapa, Anish Turlapaty, <b>Surya Naidu</b></em></p>
+                <ul>
+                    <li>Addresses muscle fatigue detection and onset estimation during strength training using sEMG signals.</li>
+                    <li>Diverse measurement conditions (postures, experience levels, lifting loads) are considered for method evaluation.</li>
+                    <li>EMAHAD-DB6 dataset created, featuring sEMG signals from 11 subjects in various strength training scenarios.</li>
+                    <li>SVM classifier outperforms others with an <b>86.5%</b> test accuracy, especially excelling in low load conditions <b>(94% accuracy)</b>. 
+                        Fatigue onset estimation has a <b>12%</b> average relative error.</li>
+                  </ul>
+                  
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Frequency ADL Classification using ML and DL Models (In-Progress)
+                    </h5>
+
+                </div>
+                <p class="awards-paragraph"><em>Sayee Sreenivas, Anish Turlapaty, <b>Surya Naidu</b></em></p>
+                <ul>
+                    <li>First of its kind dataset focussing on rate of doing activites using sEMG signals.</li>
+                    <li>Employed Signal Processing techniques to extract relevant features from the signals.
+                    </li>
+                    <li>Utilizing ML techniques to classify the activites under different experimental setups.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Fine ADL Journal (In-Progress)
+                    </h5>
+
+                </div>
+                <p class="awards-paragraph"><em>Anish Turlapaty, <b>Surya Naidu</b>, Vidya Sagar</em></p>
+                <ul>
+                    <li>Class-wise Analysis of EMAHA-DB5 is perfromed to understand the impact of various classes using F1- score.</li>
+                    <li>% of Train Data and the impact on Accuracy of model is also evaluated.
+                    </li>
+                    <li>Impact of training on various combinations of Body and Hand Postures is also analysed, giving very promising results.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Impact of Measurement Conditions Journal (In-Progress)
+                    </h5>
+
+                </div>
+                <p class="awards-paragraph"><em>Anish Turlapaty, Vidya Sagar, <b>Surya Naidu</b></em></p>
+                <ul>
+                    <li>Application of Transfer Learning on EMAHA-DB4 dataset.</li>
+                    <li>In-depth analysis of impact of measurement conditions on Model performance.
+                    </li>
+                    <li>Implementing U-Nets and other DL architectures for fine-tuning the model.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <hr>
+
+        <div class="ex-container">
+            <div class="text">
+                <div class="awards-heading">
+                    <h5>Fatigue Onset Estimation Journal (In-Progress)
+                    </h5>
+
+                </div>
+                <p class="awards-paragraph"><em>Eswar Adapa, Anish Turlapaty, <b>Surya Naidu</b></em></p>
+                <ul>
+                    <li>Fine-tuning the model to reduce average error.</li>
+                    <li>Data balancing to take a step further for real-time implementation.</li>
+                    <li>Deep Learning techniques like U-Nets are currently being examined.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <hr>
+
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <a href="mailto:naidusuryakiran@gmail.com">naidusuryakiran@gmail.com</a>
+            <!-- Add mobile number here -->
+            <a href="mobile-number">Mobile: +91-7093191273</a>
+            <!-- Social links -->
+            <div class="social">
+                <a href="https://www.linkedin.com/in/surya-naidu-86bb3221b/" target="_blank"><img
+                        src="./assets/linkedin-icon.svg" alt="Linkedin" /></a>
+                <a href="https://github.com/jinx19" target="_blank"><img src="./assets/github-icon.svg"
+                        alt="GitHub" /></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
